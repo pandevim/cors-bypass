@@ -2,9 +2,16 @@
     "name": "cors-bypass-proxy",
     "version": "1.0.0",
     "description": "Simple CORS bypass proxy for Vercel",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    },
     "license": "MIT",
     "engines": {
         "node": ">=18.0.0"
     },
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "express": "^5.2.1"
+    }
 }
