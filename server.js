@@ -2,7 +2,7 @@ import express from 'express';
 import handler from './api/proxy.js';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Middleware to parse JSON bodies if needed (though the handler reads req.body directly usually)
 app.use(express.json());

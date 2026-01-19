@@ -13,15 +13,13 @@ You can run the proxy server locally using the included Express adapter.
 
 2.  **Start the server**:
     ```bash
-    npm start
-    # OR for development (watch mode)
     npm run dev
     ```
 
-    The server will start at `http://localhost:3000`.
+    The server will start at `http://localhost:8080`.
 
 3.  **Usage**:
-    Visit `http://localhost:3000/api/proxy?url=https://your-target-api.com`
+    Visit `http://localhost:8080/api/proxy?url=https://your-target-api.com`
 
 ## Deployment
 
